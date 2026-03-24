@@ -70,11 +70,11 @@ Remove um livro do banco de dados.
 
 Os testes da aplicação foram realizados utilizando o terminal, por meio da ferramenta curl, que permite simular requisições HTTP.
 
-Exemplo de inserção de um livro:
+Exemplo de inserção de um jogo:
 
-curl -X POST http://127.0.0.1:5000/insert -H "Content-Type: application/json" -d "{"nome":"Jantar Secreto","quantidade":10,"preco":45.00}"
+curl -X POST http://127.0.0.1:5000/insert -H "Content-Type: application/json" -d "{\"nome\":\"Spider Man Miles Morales\",\"quantidade\":7,\"preco\":179.90}"
 
-Exemplo de listagem dos livros cadastrados:
+Exemplo de listagem dos jogos cadastrados:
 
 curl http://127.0.0.1:5000/produtos
 
@@ -84,7 +84,7 @@ curl http://127.0.0.1:5000/produtos/1
 
 Exemplo de atualização de um registro:
 
-curl -X PUT http://127.0.0.1:5000/update/1 -H "Content-Type: application/json" -d "{"nome":"Novo Nome","quantidade":8,"preco":30.00}"
+curl -X PUT http://127.0.0.1:5000/update/1 -H "Content-Type: application/json" -d "{\"nome\":\"God of War Ragnarok\",\"quantidade\":3,\"preco\":249.90}"
 
 Exemplo de remoção de um registro:
 
