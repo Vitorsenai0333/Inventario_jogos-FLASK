@@ -104,3 +104,4 @@ SQLite
 
 O sistema desenvolvido atende aos requisitos de um CRUD completo, permitindo a manipulação de dados de forma estruturada, utilizando boas práticas de desenvolvimento de APIs REST.
 
+"# Inventario_jogos-FLASK"  
