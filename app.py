@@ -39,7 +39,7 @@ def executar_query(sql, parametros=(), buscar=False, salvar=False):
     cursor = conn.cursor()
 
     resultado = None
-
+  
     try:
         # Executa o comando SQL com parâmetros seguros
         cursor.execute(sql, parametros)
